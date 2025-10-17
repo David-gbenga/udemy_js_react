@@ -103,6 +103,8 @@ let width = 10;
 let length = 15;
 
 function area(val1, val2) {
+  val1++; // you can manipulate values inside a function
+  val2 += 5;
   return "The area of the shape is  " + val1 * val2;
 }
 let area1 = area(width, length);
@@ -114,6 +116,13 @@ let area2 = function (val1, val2) {
   return "The area of the shape is  " + val1 * val2;
 };
 console.log(area2(width, length));
+
+let area3 = function area(val1, val2) {
+  return "The area of the shape is " + val1 * val2;
+};
+len1 = 5;
+wid1 = 6;
+console.log(area3(len1, wid1));
 
 //comparision operators
 // >, <, >=,<=, ==, ===, !=, !==(this is a strict operator to check not equal to value and type)
@@ -135,6 +144,16 @@ if (num1 > num2) {
   console.log("these values are equal");
 } else {
   console.log("The other value is equal");
+}
+
+let numTest = 5;
+let numTest2 = 15;
+if (numTest > numTest2) {
+  console.log("numTest is greater");
+} else if (numTest == numTest2) {
+  console.log("these values are equal");
+} else {
+  console.log("The other value is greater");
 }
 
 //Equality
@@ -265,7 +284,6 @@ console.log(sentence.slice(1, 2));
 
 // Template Literals
 
-
 /* 
 Call back function is the function that is being passed insdie a higher order function 
 
@@ -305,7 +323,6 @@ returns a single object, returns first match, if no match undefined
 ' great for getting unique value 
 
 */
-
 
 /* reduce
 -iterates, callback function

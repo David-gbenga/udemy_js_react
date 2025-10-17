@@ -9,12 +9,28 @@
     <a href="index.html">Home</a>
 
     <h2>The company is aimed at making life better</h2>
+
+    <p>Lorem ipsum dolor sit amet.</p>
     <button class="btn">Learn More</button>
+    <button class="btn">activate Buton</button>
+    <button class="btn">activate Buton</button>
+    <button class="btn">activate Buton</button>
+    <button class="btn">activate Buton</button
+    ><button class="btn">activate Buton</button
+    ><button class="btn">activate Buton</button
+    ><button class="btn">activate Buton</button>
     <img
       src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicjumbo.com%2F&psig=AOvVaw0l5jN2TK5I-I-6umE6qTjM&ust=1726244144117000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjpnefmvYgDFQAAAAAdAAAAABAQ"
       alt="img_show_test"
     />
 
-    <script src="./app.js"></script>
+    <!-- <script src="./app.js"></script> -->
+
+    <script>
+      /* internal javascript scipring */
+      document.querySelectorAll(".btn").forEach((item) => {
+        item.addEventListener("click", () => alert("welcome to coding 101"));
+      });
+    </script>
   </body>
 </html>

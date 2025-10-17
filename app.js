@@ -7,3 +7,5 @@ document.querySelectorAll(".btn").forEach((item) => {
 let name = "Jessy";
 
 console.log("name");
+
+// console.log(name);
