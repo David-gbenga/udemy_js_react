@@ -127,6 +127,17 @@ console.log(area3(len1, wid1));
 //comparision operators
 // >, <, >=,<=, ==, ===, !=, !==(this is a strict operator to check not equal to value and type)
 
+//objects
+const person = {
+  firstName: "john",
+  lastName: "doe",
+  siblings: ["jane", "jimmy"],
+  age: 30,
+  fullDetails() {
+    return `My name is ${this.firstName} ${this.lastName} and I have 2 siblings ${this.siblings[0]} and ${this.siblings[1]}`;
+  },
+};
+
 //Conditional statement
 //note how exclamation mark is used with parameters
 let val1 = false;
