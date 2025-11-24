@@ -71,6 +71,11 @@ car.drive();
 
 car.stop();
 
+// QUick note on arrow functions
+mutiply_code = (num1, num2) => {
+  return num1 * num2;
+};
+
 // strings challenge
 
 // (a) javascript cannot tell which is firstName or lastName in the output, it just follows the order of arrangement
@@ -106,6 +111,13 @@ console.log(full_name);
 //sum total
 gas = [20, 30, 45];
 food = [40, 60, 100];
+
+// function for inch converter
+function inch_to_cm(inch) {
+  return inch * 2.54;
+}
+
+console.log(inch_to_cm(10));
 
 function total_exp(arr) {
   let total_val = 0;
